@@ -15,7 +15,7 @@ body{
 }
 .rg{
     position: absolute;
-    left: 958px;
+    left: 841px;
 }
 .th{
     left: 30px;
@@ -74,8 +74,24 @@ body{
     margin-top: 20px;
     font-size: 24px;
 }
-
-
+.butl:hover{
+    cursor: pointer;
+}
+.butl{
+    padding-top: 3px;
+    display: block;
+    color: gold;
+    background-color: #0A4042;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 33px;
+    border-radius: 6px;
+}
+#vec{
+    padding-bottom: 4px;
+    width: 9px;
+}
 .rebo{
     left: 332px;
     position: absolute;
@@ -263,7 +279,7 @@ a{
 .slider{
     width: 50%;
     height: 150px;
-    top: 45px;
+    top: -107px;
     left: 350px;
     position: relative;
     border-radius: 20px;
@@ -289,7 +305,7 @@ a{
 .img{
     margin-bottom: 20px;
 }
-button {
+.but-thm{
     padding: 1.3em 3em;
     font-size: 12px;
     text-transform: uppercase;
@@ -308,14 +324,14 @@ button {
     left: 480px;
   }
   
-  button:hover {
+.but-thm:hover {
     background-color: #23c483;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
   }
   
-  button:active {
+.but-thm:active {
     transform: translateY(-1px);
   }
   /* get placed starts */
@@ -432,3 +448,19 @@ margin-left: 300px;
 @media (min-width: 750.02px) and (max-width: 1000px) {
     .element {
     width: 450px;} }
+
+.nl:hover{
+    background-color: #0A4042;
+    color: #ffffff;
+}    
+.nl{
+    font-weight: bold;
+    border-radius: 25px;
+}
+.ait{
+    color: #D76283;
+}
+#st-slide{
+    /* height: 90px; */
+    padding-bottom: 20px;
+}
